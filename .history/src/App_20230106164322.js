@@ -29,8 +29,9 @@ const App = () => {
   return (
     <div>
       <Upload>
-        <Button icon={<UploadOutlined />} />
+        <Button icon={<UploadOutlined />}>Upload</Button>
       </Upload>
+      <input type="file" onChange={handleFile} />
       <Button onClick={handleUpload}>Upload</Button>
       <p>{response}</p>
     </div>

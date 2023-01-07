@@ -1,0 +1,1 @@
+// Create a react component that uses antd framework, where there is a file input button where you can upload a file. There is a button that when clicked, it will send the file to the server. The server will then return a response that will be displayed on the page. This response will simply be the number of characters present in the document. 

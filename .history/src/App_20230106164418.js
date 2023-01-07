@@ -29,7 +29,7 @@ const App = () => {
   return (
     <div>
       <Upload>
-        <Button icon={<UploadOutlined />} />
+        <Button icon={<UploadOutlined />}>Upload</Button>
       </Upload>
       <Button onClick={handleUpload}>Upload</Button>
       <p>{response}</p>
